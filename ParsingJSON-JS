@@ -1,0 +1,10 @@
+// Esempio di stringa JSON
+let jsonStr = '{"nome": "Mario", "cognome": "Rossi", "età": 21}';
+
+// Parsing della stringa JSON
+let oggetto = JSON.parse(jsonStr);
+
+// Accesso ai dati dell'oggetto
+console.log("Nome:", oggetto.nome); // Mario
+console.log("Cognome:", oggetto.cognome); // Rossi
+console.log("Età:", oggetto.età); // 21
