@@ -1,0 +1,18 @@
+import org.json.JSONObject;
+import org.json.XML;
+
+public class XmlToJsonConverter {
+    public static void main(String[] args) {
+        // Esempio di stringa XML
+        String xmlStr = "<studente><nome>Mario</nome><cognome>Rossi</cognome><età>21</età></studente>";
+
+        // Converti la stringa XML in JSONObject
+        JSONObject jsonObject = XML.toJSONObject(xmlStr);
+
+        // Converti JSONObject in una stringa JSON
+        String jsonStr = jsonObject.toString();
+
+        // Stampa il risultato
+        System.out.println(jsonStr);
+    }
+}
