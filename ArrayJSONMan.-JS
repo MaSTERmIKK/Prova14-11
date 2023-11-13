@@ -1,0 +1,18 @@
+// Esempio di array JSON
+let studenti = [
+    { "nome": "Mario", "cognome": "Rossi", "età": 21 },
+    { "nome": "Luca", "cognome": "Bianchi", "età": 22 },
+    { "nome": "Sara", "cognome": "Verdi", "età": 20 }
+];
+
+// Filtra gli studenti con età superiore a 20
+let studentiMaggiori = studenti.filter(studente => studente.età > 20);
+
+// Mappa l'array per ottenere solo i nomi e cognomi
+let nomiCognomi = studenti.map(studente => {
+    return { nome: studente.nome, cognome: studente.cognome };
+});
+
+// Log dei risultati
+console.log("Studenti maggiorenni:", studentiMaggiori);
+console.log("Nomi e cognomi:", nomiCognomi);
