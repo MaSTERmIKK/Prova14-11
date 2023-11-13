@@ -2,11 +2,17 @@
 
 Buon di, dopo un'alnalisi veloce o concluso che quello che mi serrvirebbe essenzialmente è:
 
-VSC - con possiblità di istallare HTML exstension pack
+VSC - con possiblità di istallare HTML extension pack e/o JS extension pack
 
-JS, Java - con sdk Istallati nella macchina  e/o possibilità di avere estensoni (extra)
+JS, Java - con sdk Istallati nella macchina e/o possibilità di avere estensioni (extra)
 
-Un browswer - INDIFERENTE QUALE PER FAR GIRARE js
+Un Browser - INDIFERENTE QUALE PER FAR GIRARE js e html
 
-La possibilità di usare la libreria org.json A CUI O MESSO RIFERIMENTI PER DOWLOAD IN FILE --> https://github.com/MaSTERmIKK/Prova14-11/tree/main#:~:text=13%20minutes%20ago-,RiferimentoOrg.json,-Create%20RiferimentoOrg.json
+La possibilità di usare la libreria org.json A CUI O MESSO RIFERIMENTI PER DOWLOAD IN FILE --> https://github.9om/MaSTERmIKK/Prova14-11/tree/main#:~:text=13%20minutes%20ago-,RiferimentoOrg.json,-Create%20RiferimentoOrg.json
 
+
+Ho caricato nella repository vari esempi di codice e/o codici veri e propri che userò per gli esempi e i test/esercizi 
+
+Fammi sapere se ho preso bene il punto e buon lavoro.
+
+PS: scusa l'italiano sono dislessico ma confido nella comprensibilità del tutto :)
