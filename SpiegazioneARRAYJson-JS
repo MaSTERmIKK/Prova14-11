@@ -1,0 +1,20 @@
+// Esempio di array JSON
+let studenti = [
+    { "nome": "Mario", "cognome": "Rossi", "età": 21 },
+    { "nome": "Luca", "cognome": "Bianchi", "età": 22 },
+    { "nome": "Sara", "cognome": "Verdi", "età": 20 }
+];
+
+// Accesso a un elemento specifico dell'array
+console.log("Primo studente:", studenti[0]);
+
+// Iterazione su tutti gli elementi dell'array
+studenti.forEach(studente => {
+    console.log(`Studente: ${studente.nome} ${studente.cognome}`);
+});
+
+// Aggiunta di un nuovo oggetto all'array
+studenti.push({ "nome": "Anna", "cognome": "Gialli", "età": 23 });
+
+// Rimozione dell'ultimo elemento dell'array
+studenti.pop();
