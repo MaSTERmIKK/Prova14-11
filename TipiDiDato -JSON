@@ -1,0 +1,14 @@
+Tipi di Dati Supportati in JSON
+JSON (JavaScript Object Notation) è un formato leggero per lo scambio di dati. È facile da leggere e scrivere per gli umani e facile da analizzare e generare per le macchine. I tipi di dati che possono essere rappresentati in JSON sono piuttosto limitati, ma sufficientemente flessibili per la maggior parte delle applicazioni. Ecco i tipi di dati supportati:
+
+Stringa: Una sequenza di zero o più caratteri Unicode, racchiusa tra virgolette doppie. Esempio: "Ciao Mondo"
+
+Numero: Un numero intero o a virgola mobile. JSON non fa distinzione tra tipi di numeri diversi. Esempio: 100 o 3.14
+
+Oggetto: Una collezione non ordinata di coppie nome/valore, racchiusa tra parentesi graffe. Ogni nome è seguito da : e le coppie nome/valore sono separate da ,. Esempio: {"nome": "Mario", "età": 30}
+
+Array: Una sequenza ordinata di valori, racchiusa tra parentesi quadre. Gli elementi dell'array sono separati da ,. Esempio: [1, 2, 3, 4, 5]
+
+Booleano: true o false.
+
+Null: Una parola letterale null che rappresenta un valore vuoto o inesistente.
