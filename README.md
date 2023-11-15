@@ -8,7 +8,11 @@ JS, Java - con sdk Istallati nella macchina e/o possibilità di avere estensioni
 
 Un Browser - INDIFERENTE QUALE PER FAR GIRARE js e html
 
+
+Aggiornamento 15/11  ---> Riferimento aggiunto verso Jackson.
 La possibilità di usare la libreria org.json A CUI O MESSO RIFERIMENTI PER DOWLOAD IN FILE --> [https://github.9om/MaSTERmIKK/Prova14-11/tree/main#:~:text=13%20minutes%20ago-,RiferimentoOrg.json,-Create%20RiferimentoOrg.json](https://github.com/MaSTERmIKK/Prova14-11/blob/main/RiferimentoOrg.json)
+
+
 
 
 Ho caricato nella repository vari esempi di codice e/o codici veri e propri che userò per gli esempi e i test/esercizi 
