@@ -5,7 +5,7 @@ VSC - JS, Java - con sdk Istallati nella macchina - Un Browser - PER FAR GIRARE 
 
 
 Aggiornamento 15/11  ---> Riferimento aggiunto verso Jackson.
-La possibilità di usare la libreria org.json A CUI O MESSO RIFERIMENTI PER DOWLOAD IN FILE -----> 
+La possibilità di usare la libreria Jackson di CUI O MESSO RIFERIMENTI nel FILE -----> 
 https://github.com/MaSTERmIKK/Prova14-11/blob/main/RiferimentoLibreriaEconf
 
 
