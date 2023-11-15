@@ -1,0 +1,13 @@
+// Per la serializzazione
+XmlMapper xmlMapper = new XmlMapper();
+String xml = xmlMapper.writeValueAsString(new SimpleBean());
+// xml contiene la stringa XML dell'oggetto
+
+// Per la deserializzazione da stringa
+SimpleBean value = xmlMapper.readValue("<SimpleBean><x>1</x><y>2</y></SimpleBean>", SimpleBean.class);
+// value è l'oggetto Java deserializzato
+
+// Per la deserializzazione da file
+File file = new File("simple_bean.xml");
+SimpleBean value = xmlMapper.readValue(file, SimpleBean.class);
+// value è l'oggetto Java deserializzato dal file XML
