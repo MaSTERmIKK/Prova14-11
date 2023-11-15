@@ -1,0 +1,26 @@
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import java.io.File;
+import java.io.IOException;
+
+// Classe POJO che rappresenta il tuo oggetto
+class MyObject {
+    // ... attributi, costruttori, getter e setter
+}
+
+// MAIN
+public class XmlDataBindingExample {
+    public static void main(String[] args) {
+        XmlMapper xmlMapper = new XmlMapper();
+
+        try {
+            // Deserializzazione XML in oggetto Java
+            MyObject obj = xmlMapper.readValue(new File("myObject.xml"), MyObject.class);
+
+            // Serializzazione oggetto Java in XML
+            xmlMapper.writeValue(new File("myObjectOutput.xml"), obj);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
