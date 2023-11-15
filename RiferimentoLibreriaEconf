@@ -1,0 +1,12 @@
+https://jar-download.com/artifacts/org.json
+
+
+https://jar-download.com/artifacts/com.fasterxml.jackson.core
+
+
+// Conf: Per configurare Jackson, segui questi passi:
+
+-Aggiungi le dipendenze necessarie di Jackson nel tuo file pom.xml se stai usando Maven.
+-Crea un'istanza di ObjectMapper per gestire la serializzazione e deserializzazione.
+-Utilizza le annotazioni fornite da Jackson per personalizzare il processo come necessario (ad esempio, @JsonProperty, @JsonIgnore, ecc.).
+-Utilizza la classe XmlMapper per la lavorazione di XML, se necessario.
