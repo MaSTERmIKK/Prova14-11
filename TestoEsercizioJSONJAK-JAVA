@@ -1,0 +1,23 @@
+Esercizio: Gestione degli Studenti con Jackson
+Obiettivo:
+Creare un'applicazione Java che gestisca un elenco di studenti, permettendo di salvarli in un file JSON e recuperarli.
+
+Specifiche:
+
+Crea una classe Studente con almeno i seguenti campi:
+
+nome (String)
+cognome (String)
+matricola (int)
+corsoDiStudi (String)
+Implementa i metodi getter e setter per ogni campo.
+
+Scrivi un metodo che serializzi una lista di oggetti Studente in un file JSON chiamato studenti.json.
+
+Scrivi un metodo che deserializzi il contenuto del file studenti.json e lo stampi a console.
+
+Materiali Necessari:
+
+Libreria Jackson (da includere nel progetto)
+IDE Java (es. Eclipse, IntelliJ IDEA)
+JDK installato sul tuo computer
