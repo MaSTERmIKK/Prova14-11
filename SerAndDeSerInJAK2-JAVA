@@ -1,0 +1,44 @@
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.dataformat.xml.XmlMapper;
+import java.io.File;
+import java.io.IOException;
+
+// Classe POJO comune per esempi JSON e XML
+class Student {
+    public String name;
+    public int age;
+
+    // Costruttori, getter e setter omessi per brevità
+}
+
+public class SerializationDeserializationExample {
+    public static void main(String[] args) {
+        ObjectMapper jsonMapper = new ObjectMapper();
+        XmlMapper xmlMapper = new XmlMapper();
+        try {
+            // Oggetto per la demo
+            Student student = new Student();
+            student.name = "Mario Rossi";
+            student.age = 22;
+
+            // JSON Serialization
+            jsonMapper.writeValue(new File("student.json"), student);
+
+            // JSON Deserialization
+            Student studentFromJson = jsonMapper.readValue(new File("student.json"), Student.class);
+
+            // XML Serialization
+            xmlMapper.writeValue(new File("student.xml"), student);
+
+            // XML Deserialization
+            Student studentFromXml = xmlMapper.readValue(new File("student.xml"), Student.class);
+
+            // Stampa i risultati per conferma
+            System.out.println("JSON Object: " + studentFromJson.name + ", " + studentFromJson.age);
+            System.out.println("XML Object: " + studentFromXml.name + ", " + studentFromXml.age);
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
