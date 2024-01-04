@@ -13,4 +13,4 @@ Aggiornamento 15/11  ---> Ho caricato Alcuni riferimenti a script di Data Bindin
 Ho caricato nella repository vari esempi di codice e/o codici veri e propri che userò per gli esempi e i test/esercizi 
 
 
-PS:  Mi dispiace per la mancanza di precisione ma lavorandoci extra tempo lavorativo su questa preparazione visto i tempi stretti pur volendoci mettere massima disciplina per forza di cose non verrà curata al dettaglio come potrebbe questa repository e il suo readME.
+Aggiornamento 04/01  ---> Aggiunto link per conferma Slide
